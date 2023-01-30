@@ -1,0 +1,19 @@
+.name_section{
+    display: flex;
+    background-color: initial;
+}
+.names:first-child{
+margin-right: 20px;
+}
+.names{
+    background-color: inherit;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;}
